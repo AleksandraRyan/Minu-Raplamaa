@@ -16,6 +16,11 @@ body {
   height: 350px;
 }
 
+.container header h1 {
+  text-decoration: overline;
+  text-decoration-color: yellow;
+}
+
 .images {
   display: flex;
   justify-content: space-evenly;
@@ -26,4 +31,10 @@ img {
   border-radius: 5px;
   background-color: yellow;
   padding: 2px;
+}
+
+footer p a {
+  text-decoration: none;
+  font-style: italic;
+  color: yellow;
 }
