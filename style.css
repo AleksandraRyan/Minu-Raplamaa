@@ -38,3 +38,10 @@ footer p a {
   font-style: italic;
   color: yellow;
 }
+
+@media (max-width: 463px) {
+  footer p a {
+    display: block;
+    text-align: center;
+  }
+}
