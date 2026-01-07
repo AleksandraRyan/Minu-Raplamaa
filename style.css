@@ -39,9 +39,17 @@ footer p a {
   color: yellow;
 }
 
+footer p span {
+  visibility: hidden;
+}
+
 @media (max-width: 463px) {
   footer p a {
     display: block;
     text-align: center;
+  }
+
+  footer p span {
+    visibility: visible;
   }
 }
